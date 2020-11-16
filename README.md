@@ -33,6 +33,8 @@ ADAM, SGD a top of the line algorithm from a paper by Matthews and Weare (2019) 
 
 We plan to use and compare these three algorithms testing and training performance on the MNIST and CIFAR-10 dataset. 
 
+The loss function we are currently using is just a basic entropy-loss function. 
+
 
 ## f. Comments and/or concerns?
 
