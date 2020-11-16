@@ -40,3 +40,9 @@ One concern is that we are implementing a state of the art optimizer; making sur
 In case we run into a huge problem with the implementation of the Langevin MCMC with stochastic gradients, we will compare Adam and SGD to a variety of optimizers such as Nesterov Momentum, RMS prop, and ADAgrad.
 
 
+## Response From Dr. Mangoubi
+This sounds like a good project!
+
+I think it is good that you have a backup plan in case programming the Langevin MCMC proves too difficult.  (MCMC algorithms can be quite difficult to get to work on a neural network.)
+
+Also, please make sure to describe both the loss function AND the algorithm you are using (see the project description for details on the requirements of the project).  I am guessing that the function you are minimizing (or sampling from, in the case of MCMC) is defined by a neural network, but this should be stated explicitly.  Also, when defining the loss function, are you using cross entropy loss, MSE loss, KL divergence loss, etc.?
